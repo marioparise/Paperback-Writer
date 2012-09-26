@@ -1,7 +1,7 @@
 Paperback-Writer
 ================
 
-A simple eBook writing app built in Java.
+A simple eBook writing app built in Java or HTML5 (to be determined).
 
 ### Project Links
 
