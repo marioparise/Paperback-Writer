@@ -1,0 +1,140 @@
+/**
+ * Normalization.
+ *
+ */
+ 
+@import url("normalize.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+
+
+/**
+ * Typography
+ *
+ */
+ 
+html {
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+
+/**
+ * Header
+ *
+ */
+ 
+header {
+	width: 100%;
+	background: #fff;
+	padding: 1em 0;
+}
+
+input#book-title {
+	width: 16em;
+	border: none;
+	background: none;
+	margin: 0 0.5em;
+}
+
+
+/**
+ * Menu
+ *
+ */
+ 
+nav#menu {
+	background: #333;
+	padding: 1em;
+}
+
+nav#menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav#menu li {
+	display: inline;
+}
+
+nav#menu li a,
+a.button {
+	padding: 0.4em 0.75em;
+	background: #ddd;
+	cursor: default;
+	margin: 0 0.25em 0 0;
+	font-weight: bold;
+	border: 1px solid #ddd;
+}
+
+nav#menu li a:hover,
+a.button:hover {
+	background: #eee;
+}
+
+nav#menu li a#open {
+	background-image: url("../img/open.png");
+	background-repeat: no-repeat;
+	padding-left: 2.25em;
+}
+
+nav#menu li a#save {
+	background-image: url("../img/save.png");
+	background-repeat: no-repeat;
+	padding-left: 2.25em;
+}
+
+nav#menu li a#export-epub {
+	background-image: url("../img/epub.png");
+	background-repeat: no-repeat;
+	padding-left: 2.25em;
+}
+
+
+/**
+ * Table of Contents
+ *
+ */
+ 
+nav#toc {
+	font-size: 1em;
+	width: 800px;
+	margin: 1em auto;
+}
+
+
+/**
+ * Section: Content
+ *
+ */
+
+section#content {
+	width: 800px;
+	margin: 2em auto;
+}
+
+section#content h2 input {
+	border: 0;
+	background: none;
+	width: 100%;
+}
+ 
+section#content textarea {
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 800px;
+	margin: 0 auto;
+	height: 400px;
+	font-size: 1.25em;
+	line-height: 1.4em;
+}
